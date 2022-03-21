@@ -1,0 +1,12 @@
+body{
+    font-size: 18px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+/** HEADER **/
+#header-nav{
+    background-color: white;
+    border-radius: 0;
+    border: 0;
+}
