@@ -11,29 +11,86 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="../css/styles.css">
         <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <nav id="header-nav" class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-                <a class="navbar-brand" href="#">Julia Groza</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div id="nav-list" class="navbar-nav">
-                        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="about.html">About</a>
-                        <a class="nav-item nav-link" href="https://drive.google.com/file/d/1xPIou2ltlMcjjfo_BeX3EUhdPNngtXgA/view?usp=sharing">Resume</a>
+
+        <!-- HEADER -->
+        <header>
+            <nav id="header-nav" class="navbar navbar-expand-sm navbar-light bg-light">
+                <div class="container">
+                    <a class="navbar-brand" href="#">Julia Groza</a>
+                    <button id="navbarToggle" class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div id="collapsable-nav" class="collapse navbar-collapse">
+                        <ul id="nav-list" class="nav navbar-nav navbar-right flex-nowrap">
+                            <li id="navHomeButton" class="visible-xs active">
+                                <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li>
+                                <a class="nav-item nav-link" href="about.html">About</a>
+                            </li>
+                            <li>
+                                <a class="nav-item nav-link" href="https://drive.google.com/file/d/1xPIou2ltlMcjjfo_BeX3EUhdPNngtXgA/view?usp=sharing" target="_blank">Resume</a>
+                            </li>
+                        </ul>
+                            
+                        </div>
                     </div>
                 </div>
+            </nav>
+        </header>
+
+    <!--CONTENT-->
+
+    <!--WELCOME SECTION-->
+
+        <div class="section">
+            <div class="row">
+                <div id="memoji" class="d-none d-sm-block col-sm-6 col-md-5 col-lg-4 col-xl-3">
+                    <img src="../images/waving-bitmoji.png" 
+                    alt="Memoji of Julia" 
+                    class="img-responsive" 
+                    width="200" 
+                    height="200">
+                </div>
+                <div id="intro" class="col-xs-12 col-sm-6 col-md-7 col-lg-8 col-xl-6">
+                    <strong><h3>Welcome!</h3></strong>
+                    <p>I am <strong>Julia Groza</strong>, a Computer Science and Business student passionate about helping others using technology. I’m currently interested in <strong>Tech Consulting</strong> and <strong>Product Management!</strong></p>
+                </div>
+                <div class="col-xl-3">
+
+                </div>
             </div>
-          </nav>
-    
+        </div>
+
+        <!--PROJECTS SECTION-->
+
+        <div id="projects" class="section">
+            <h3><strong>My Projects</strong></h3>
+            <div class="row">
+                <div id="card" class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <button type="button" class="btn btn-lg btn-block btn_explore"><span>Explore MyCity</span></button>
+                </div>
+                <div id="card" class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <button type="button" class="btn btn-lg btn-block btn_helping"><span>Helping Hands</span></button>
+                </div>
+                <div id="card" class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <button type="button" class="btn btn-lg btn-block btn_safe"><span>SafeCred</span></button>
+                </div>
+                <div id="card" class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <button type="button" class="btn btn-lg btn-block btn_ai"><span>AI Predictor</span></button>
+                </div>
+            </div>
+        </div>
+
+
         
         <script src="" async defer></script>
     </body>
