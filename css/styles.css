@@ -123,15 +123,30 @@ h3{
     white-space: nowrap;
     margin-right: 0.8em;
 }
+#single-award a{
+    color: black;
+}
+#single-award a:visited{
+    color: black;
+}
+#single-award a:hover{
+    text-decoration-line: none;
+}
+
 h5{
     font-size: 1.2em;
     font-weight: 800;
     display:inline;
 
 }
-#long-description .p{
-    font-size: .5em;
+#technicaltext{
+    font-size: 0.9em;
 }
+.svg-icon.svg-baseline svg {
+    top: .125em;
+    position: relative;
+  }
+
 
 
 /** FOOTER **/
