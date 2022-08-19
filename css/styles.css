@@ -153,6 +153,22 @@ h5{
 #git-icon:hover{
     text-decoration: none;
 }
+#long-description .a:hover{
+    text-decoration: none;
+}
+
+/** EXPLORE MYCITY **/
+#ec_gradient{
+    background: linear-gradient(90.04deg, #5fc52e, #6eee87);
+}
+
+/** AI PREDICTOR **/
+#ap_gradient{
+    background: linear-gradient(90.04deg, #133a94, #919bff);
+}
+#ac{
+    color: white;
+}
 
 
 
