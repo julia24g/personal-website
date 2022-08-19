@@ -147,6 +147,14 @@ h5{
     position: relative;
   }
 
+#git-icon{
+    color: black;
+}
+#git-icon:hover{
+    text-decoration: none;
+}
+
+
 
 
 /** FOOTER **/
@@ -155,11 +163,17 @@ h5{
 }
 #icon{
     padding: 0% 1% 0% 1%;
-
 }
+#icon:hover{
+    text-decoration: none;
+}
+
 #icons{
     text-align: center;
     padding-top: 5px;
+}
+#icons:hover{
+    text-decoration: none;
 }
 footer{
     background: #F5F5F7;
