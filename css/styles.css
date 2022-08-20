@@ -170,8 +170,10 @@ h5{
     color: white;
 }
 
-
-
+/** SAFE CRED **/
+#sc_gradient{
+    background: linear-gradient(90.04deg, #ff930f, #fff95b);
+}
 
 /** FOOTER **/
 #socials{
@@ -192,7 +194,7 @@ h5{
     text-decoration: none;
 }
 footer{
-    background: #F5F5F7;
+    background: #e2e8f0;
     padding: 30px 0px 30px 0px;
 }
 
