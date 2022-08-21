@@ -62,8 +62,7 @@
                         <!--PROJECT DESCRIPTION-->
                         <div class="row">
                             <div class="col-lg-10 col-xl-9">
-                                <p style="margin-top: 1.5em;">The <strong>unfortunate reality of donating to charity</strong> is that you don’t know where your money is being spent or if it’s going towards the cause at all. </p>
-                                <p>Helping Hands was designed to let donators track exactly where their dollars go.</p>        
+                                <p style="margin-top: 1.5em;">With COVID-19 forcing many public spaces to close, people were spending time outdoors more than ever. Explore MyCity was made to generate paths for London locals to explore areas of their city they may not have visited otherwise.</p>        
                             </div>
                         </div>
                        
@@ -90,10 +89,10 @@
 
                     <!--TEXT-->
 
-                    <p id="technicaltext" style="margin-top: 1em;">Helping Hands is a beta web application built using Hedera Hashgraph, a distributed ledger technology that has its own cryptocurrency called hbar.</p>
-                    <p id="technicaltext">To create our application, we first created a Gradle project in Java. We then created two Hedera testnet accounts to mimic the interaction between a donator and a charitable organization; each account started with 1000 hbar.</p>
-                    <p id="technicaltext">Once we developed the functionality to transfer hbar on the distributed ledger, we needed to build the front-end using HTML and CSS and connect the back-end using a web framework. In this case, using Spring-boot would have worked well - however, no team members knew Spring well enough to implement it in the remainder of time we had left. </p>
-                    <p id="technicaltext">After trying to work through our greatest challenge with this project, we discovered a quick and simple way of connecting the front-end and back-end pieces by using a Java library on Stack Overflow called ‘Render Snake’. </p>
+                    <p id="technicaltext" style="margin-top: 1em;">Explore myCity is a beta web application that creates randomly generated paths on Google Maps based on a distance (0-10 km) and types of attractions (parks, public art, trails, facilities) the user prefers. </p>
+                    <p id="technicaltext">The program uses data from opendata.london.ca for the types of attractions and their addresses or coordinates and use them as .csv files. A python file reads the .csv files, parses each line for the coordinates or address of each attraction for each file, and stores it in a list.</p>
+                    <p id="technicaltext">The front-end of the web app was made using HTML, a Flask framework, and a GoogleMaps API integration. We requested user input data through Flask and stored them in variables, which were then used as inputs to a python function. </p>
+                    <p id="technicaltext">When the app loads, the user’s current location is retrieved through the browser using geolocation. The python program checks which criteria the user selected and calls the appropriate functions. These functions calculate the distance between the user’s location and the nearest attraction; if the distance is within the distance input given, the attraction is added as a stop on the user’s path until no more attractions can be added. This list of addresses and coordinates is given to the API, which displays the GoogleMaps route to users.</p>
 
                 </div>
             </div>
