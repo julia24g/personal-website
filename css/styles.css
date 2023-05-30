@@ -31,20 +31,39 @@ h4{
     font-weight: 300;
     font-size: 18px;
 }
+h5{
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 15px;
+}
 
 /* INTRO */
+#memoji{
+    margin-bottom: 10%;
+}
 .words{
     text-align: left;
 }
 .intro{
     padding: 10%;
 }
+.intro a{
+    color: white;
+    text-decoration: underline;
+}
 
 /* ICONS */
+#icon{
+    text-decoration: none;
+    padding: 0% 1% 0% 1%;
+}
+#icon:hover{
+    text-decoration: none;
+}
 
 /* PROJECTS */ 
 div.transbox{
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.2);
     border-radius: 15px;
     margin-right: 8%;
     padding: 3%;
