@@ -36,6 +36,11 @@ h5{
     font-weight: 300;
     font-size: 15px;
 }
+#single-award{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 28px;
+}
 
 /* INTRO */
 #memoji{
@@ -60,6 +65,10 @@ h5{
 #icon:hover{
     text-decoration: none;
 }
+#single-award a{
+    padding-left: 0.5%;
+    padding-bottom: 2%;
+}
 
 /* PROJECTS */ 
 div.transbox{
@@ -67,4 +76,8 @@ div.transbox{
     border-radius: 15px;
     margin-right: 8%;
     padding: 3%;
+}
+.carousel-item{
+    overflow-x: auto;
+    scroll-behavior: smooth;
 }
