@@ -81,3 +81,36 @@ div.transbox{
     overflow-x: auto;
     scroll-behavior: smooth;
 }
+
+/* LANGUAGES */
+.language{
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.7);
+    width: fit-content;
+    font-size: 15px;
+    padding-left: 1%;
+    padding-right: 1%;
+    display: inline-block;
+    margin-right: 1%;
+}
+.aws{
+    background-color: #ffe162;
+}
+.docker{
+    background-color: #90e0ef;
+}
+.python{
+    background-color: #91c483;
+}
+.solidity{
+    background-color: #ff8474;
+}
+.truffle{
+    background-color: #86c6f4;
+}
+.node{
+    background-color: #c0d8c0;
+}
+.js{
+    background-color: #ffc996;
+}
