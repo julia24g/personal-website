@@ -36,10 +36,23 @@ h5{
     font-weight: 300;
     font-size: 15px;
 }
-#single-award{
+#project-git{
     font-family: 'Inter';
     font-weight: 600;
     font-size: 28px;
+}
+#single-award{
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 15px;
+    padding-bottom: 1%;
+    align-content: center;
+}
+#single-award a{
+    color: black;
+}
+#single-award a:visited{
+    color: black;
 }
 
 /* INTRO */
@@ -65,7 +78,14 @@ h5{
 #icon:hover{
     text-decoration: none;
 }
-#single-award a{
+#awardicon{
+    text-decoration: none;
+    padding-right: 1%;
+}
+#awardicon:hover{
+    text-decoration: none;
+}
+#project-git a{
     padding-left: 0.5%;
     padding-bottom: 2%;
 }
