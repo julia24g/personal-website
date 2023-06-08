@@ -36,6 +36,13 @@ h5{
     font-weight: 300;
     font-size: 15px;
 }
+h6{
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 20px;
+    padding-top: 7%;
+    color: white;
+}
 #project-git{
     font-family: 'Inter';
     font-weight: 600;
@@ -114,28 +121,28 @@ div.transbox{
     margin-right: 1%;
 }
 .aws{
-    background-color: #ffe162;
+    background-color: #fde4cf;
 }
 .docker{
-    background-color: #90e0ef;
+    background-color: #a3c4f3;
 }
 .python{
-    background-color: #91c483;
+    background-color: #90dbf4;
 }
 .solidity{
-    background-color: #ff8474;
+    background-color: #f1c0e8;
 }
 .truffle{
-    background-color: #86c6f4;
+    background-color: #b9fbc0;
 }
 .node{
-    background-color: #c0d8c0;
+    background-color: #98f5e1;
 }
 .js{
-    background-color: #ffc996;
+    background-color: #fbf8cc;
 }
 .rust{
-    background-color: #9f5f80;
+    background-color: #ffcfd2;
 }
 .c{
     background-color: #ffc0d3;
@@ -144,11 +151,36 @@ div.transbox{
     background-color: #c8f0f8;
 }
 .html{
-    background-color: #d29d2b;
+    background-color: #d6f6dd;
 }
 .css{
-    background-color: #ecb390;
+    background-color: #cfbaf0;
 }
 .gradle{
-    background-color: #eeeeee;
+    background-color: #8eecf5;
+}
+.cpp{
+    background-color: #f9c6c9;
+}
+.qt{
+    background-color: #ccd5ae;
+}
+/** INTERESTS **/
+.interest{
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.7);
+    width: fit-content;
+    font-size: 15px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    display: inline-block;
+    margin-right: 1%;
+    margin-bottom: 2%;
+    background: rgba(255, 255, 255, 0.2);
+    font-weight: 600;
+}
+.interests{
+    margin-right: 8%;
 }
