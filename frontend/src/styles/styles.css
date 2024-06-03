@@ -1,12 +1,20 @@
 /** BACKGROUND GRADIENT **/
 .magicpattern { 
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background-size: cover;
     background-position: center center;
     background-repeat: repeat;
     background-image: url("data:image/svg+xml;utf8,%3Csvg xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22 width=%221000%22 height=%22667%22%3E%3Cg filter=%22url(%23a)%22%3E%3Cpath fill=%22%2317B978%22 d=%22M-500-333.5h2000v1334H-500z%22%2F%3E%3Cpath d=%22m409-110-689 323L67 691l408-266%22 fill=%22%23A7FF83%22%2F%3E%3Cpath d=%22M553-169 63 276l130 363 655-301%22 fill=%22%23086972%22%2F%3E%3Cpath d=%22M793 181 494 733l641 180 57-385%22 fill=%22%23A7FF83%22%2F%3E%3Cpath d=%22m176 136-350 176 385 569 415-711M765 547l-574 460 125 196 543-204%22 fill=%22%23086972%22%2F%3E%3Cpath d=%22M596 565 433 707l494 586 275-543%22 fill=%22%23086972%22%2F%3E%3C%2Fg%3E%3Cdefs%3E%3Cfilter id=%22a%22 x=%22-137%22 y=%22-137%22 width=%221274%22 height=%22941%22 filterUnits=%22userSpaceOnUse%22 color-interpolation-filters=%22sRGB%22%3E%3CfeFlood flood-opacity=%220%22 result=%22BackgroundImageFix%22%2F%3E%3CfeBlend in=%22SourceGraphic%22 in2=%22BackgroundImageFix%22 result=%22shape%22%2F%3E%3CfeGaussianBlur stdDeviation=%22137%22 result=%22effect1_foregroundBlur_1_2%22%2F%3E%3C%2Ffilter%3E%3C%2Fdefs%3E%3C%2Fsvg%3E");
-  }  
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+/* .container {
+    width: 100%;
+} */
 
 /** FONTS */
 h1{
@@ -78,18 +86,18 @@ h6{
 }
 
 /* ICONS */
-#icon{
+.icon{
     text-decoration: none;
     padding: 0% 1% 0% 1%;
 }
-#icon:hover{
+.icon:hover{
     text-decoration: none;
 }
-#awardicon{
+.awardicon{
     text-decoration: none;
     padding-right: 1%;
 }
-#awardicon:hover{
+.awardicon:hover{
     text-decoration: none;
 }
 #project-git a{
@@ -98,15 +106,23 @@ h6{
 }
 
 /* PROJECTS */ 
+.projects{
+    margin-right: 8%;
+    padding: 3%;
+    border-radius: 15px;
+}
 div.transbox{
     background: rgba(255, 255, 255, 0.2);
     border-radius: 15px;
-    margin-right: 8%;
     padding: 3%;
 }
 .carousel-item{
     overflow-x: auto;
     scroll-behavior: smooth;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0;
 }
 
 /* LANGUAGES */
@@ -138,7 +154,7 @@ div.transbox{
 .node{
     background-color: #98f5e1;
 }
-.js{
+.javascript{
     background-color: #fbf8cc;
 }
 .rust{
